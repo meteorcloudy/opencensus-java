@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.opencensus</groupId>
+  <artifactId>opencensus-api</artifactId>
+  <properties>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <version>0.19.2</version>
+  <name>OpenCensus</name>
+  <description>null</description>
+  <url>https://github.com/census-instrumentation/opencensus-java</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>io.opencensus</id>
+      <name>OpenCensus Contributors</name>
+      <email>census-developers@googlegroups.com</email>
+      <url>opencensus.io</url>
+      <organization>OpenCensus Authors</organization>
+      <organizationUrl>https://www.opencensus.io</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:svn:https://github.com/census-instrumentation/opencensus-java</connection>
+    <developerConnection>scm:git:git@github.com/census-instrumentation/opencensus-java</developerConnection>
+    <url>https://github.com/census-instrumentation/opencensus-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.grpc</groupId>
+      <artifactId>grpc-context</artifactId>
+      <version>1.18.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.auto.value/auto-value -->
+    <dependency>
+        <groupId>com.google.auto.value</groupId>
+        <artifactId>auto-value</artifactId>
+        <version>1.6.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.auto.value/auto-value-annotations -->
+    <dependency>
+        <groupId>com.google.auto.value</groupId>
+        <artifactId>auto-value-annotations</artifactId>
+        <version>1.6.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.auto.service/auto-service -->
+    <dependency>
+        <groupId>com.google.auto.service</groupId>
+        <artifactId>auto-service</artifactId>
+        <version>1.0-rc7</version>
+    </dependency>
+  </dependencies>
+</project>
+
+
